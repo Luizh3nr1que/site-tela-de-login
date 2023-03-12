@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@media (max-width:457px) {
+    .card {
+        height: 600px;
+        width: 350px;
+    }
+}
+
+@media (max-width:341px) {
+    .card {
+        height: 550px;
+        width: 320px;
+    }
+}
