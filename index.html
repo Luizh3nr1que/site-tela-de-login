@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Login</title>
+</head>
+
+<body>
+
+    <form action="cadastro.php" method="POST">
+
+        <section class="card">
+            <div class="head">
+                <img src="img/Zw.png" alt="perfil">
+                <p>LOGIN</p>
+            </div>
+
+            <p><span class="material-icons">
+                    person
+                </span> <input required type="text" name="user" id="user" placeholder="Usuario">
+            </p>
+
+            <p><span class="material-icons">
+                    https
+                </span> <input required type="password" name="pass" id="pass" placeholder="Senha" minlength="5"
+                    maxlength="15">
+            </p>
+
+            <p id="tam">Remember me<input type="checkbox" name="rad" id="rad"></p>
+
+            <input type="submit" class="button" value="Enviar"><br><br>
+
+
+
+            <a class="lk" href="#">Esqueci a Senha</a>
+
+        </section>
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

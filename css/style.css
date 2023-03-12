@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/972529720226.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.card {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.447);
+    border-radius: 10px;
+    text-align: center;
+    background-image: linear-gradient(to top, rgb(161, 39, 255), rgb(21, 115, 246));
+    height: 600px;
+    width: 450px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.card img {
+    filter: brightness(0) invert(1);
+    margin-top: 50px;
+    width: 100px;
+
+}
+
+.head {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.card p {
+    color: white;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.card input {
+    width: 300px;
+    align-items: center;
+}
+
+#user {
+    box-shadow: none;
+    outline: none;
+    background: transparent;
+    height: 20px;
+    margin-top: 13%;
+}
+
+input[type="text"]::placeholder {
+    color: white;
+    font-size: 15px;
+    border: none;
+
+
+}
+
+input[type="text"] {
+    font-size: 20px;
+    color: white;
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+input[type="password"] {
+    font-size: 20px;
+    color: white;
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+input[type="password"]::placeholder {
+    color: white;
+    font-size: 15px;
+    border: none;
+    background: transparent;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+
+input[type="password"]:focus,
+textarea:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+input[type="text"]:focus,
+textarea:focus:hover {
+    transition: border-bottom 0.3s ease-out;
+}
+
+input[type="password"]:focus,
+textarea:focus:hover {
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+
+
+#pass {
+    margin-top: 10px;
+    box-shadow: none;
+    outline: none;
+    background-color: transparent;
+    height: 20px;
+}
+
+
+
+#rad {
+    height: 15px;
+    margin-right: 45px;
+    margin-left: -135px;
+    margin-top: 25px;
+}
+
+.button {
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+    height: 35px;
+    border-radius: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: transform 0.5s;
+}
+
+.button:hover {
+    transform: scale(1.09);
+    background-image: linear-gradient(to top, rgb(173, 65, 255), rgb(55, 138, 255));
+    color: white;
+}
+
+.lk {
+    color: white;
+    text-decoration: none;
+}
+
+.lk:hover {
+    border-bottom: 1px solid white;
+}
