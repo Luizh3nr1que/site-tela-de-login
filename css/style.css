@@ -134,7 +134,7 @@ textarea:focus:hover {
     margin-top: 25px;
 }
 
-.button {
+/* .button {
     font-size: 15px;
     border: none;
     cursor: pointer;
@@ -150,7 +150,7 @@ textarea:focus:hover {
     transform: scale(1.09);
     background-image: linear-gradient(to top, rgb(173, 65, 255), rgb(55, 138, 255));
     color: white;
-}
+} */
 
 .lk {
     color: white;
