@@ -128,6 +128,7 @@ textarea:focus:hover {
 
 
 #rad {
+    cursor: pointer;
     height: 15px;
     margin-right: 45px;
     margin-left: -135px;
