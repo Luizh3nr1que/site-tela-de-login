@@ -135,23 +135,6 @@ textarea:focus:hover {
     margin-top: 25px;
 }
 
-/* .button {
-    font-size: 15px;
-    border: none;
-    cursor: pointer;
-    margin-top: 30px;
-    height: 35px;
-    border-radius: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
-    transition: transform 0.5s;
-}
-
-.button:hover {
-    transform: scale(1.09);
-    background-image: linear-gradient(to top, rgb(173, 65, 255), rgb(55, 138, 255));
-    color: white;
-} */
 
 .lk {
     color: white;
@@ -187,4 +170,23 @@ textarea:focus:hover {
         0 0 25px rgb(0, 140, 255),
         0 0 50px rgb(0, 140, 255),
         0 0 100px rgb(0, 140, 255);
+}
+
+.register {
+    display: block;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px 5px;
+    font-size: 15px;
+    border-radius: 4px;
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.register a {
+    text-decoration: none;
+    color: blueviolet;
 }
